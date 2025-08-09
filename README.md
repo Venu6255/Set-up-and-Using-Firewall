@@ -1,5 +1,4 @@
-# Using-Firewall
-# Task 4 - Setup and Use a Firewall (Windows/Linux)
+# Setup and Use a Firewall (Windows)
 
 ## Objective
 Configure and test basic firewall rules to allow or block traffic, demonstrating network traffic filtering skills.
