@@ -1,0 +1,33 @@
+For Windows:
+
+Rule Name:                            telnet localhost 23
+----------------------------------------------------------------------
+Enabled:                              Yes
+Direction:                            In
+Profiles:                             Domain,Private,Public
+Grouping:                             Windows Feature Experience Pack
+LocalIP:                              Any
+RemoteIP:                             Any
+Protocol:                             TCP
+LocalPort:                            23
+RemotePort:                           Any
+Edge traversal:                       No
+Action:                               Block
+
+
+For Linux:
+
+cmmd: sudo ufw status verbose
+
+o/p:
+Status: active
+
+To                         Action      From
+--                         ------      ----
+23/tcp                     DENY        Anywhere
+22/tcp                     ALLOW       Anywhere
+23/tcp (v6)                DENY        Anywhere (v6)
+22/tcp (v6)                ALLOW       Anywhere (v6)
+
+
+
